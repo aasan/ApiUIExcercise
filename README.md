@@ -42,22 +42,6 @@ The Select File or Directory to Import dialog will open.
 15. All **External Libraries** will be downloaded
 
 
-## Running the tests
-
-* Create a run configuration to test your project:
-
-1. From the **Run** menu, select **Run**.
-2. Click **Edit Configurations**….
-3. Click **+** (Add New Configuration) and select **Maven** 
-4. Give your configuration a name e.g **RunTest**.
-5. Select **Working directory** of the project to the folder project is located
-6. In the **Comand line**: field, enter maven command e.g. : Below command is passing variables which can be changed according to requirement.
-```
-clean test verify -Denv=Staging -Ddevice=mac -DappName=sunsaver -DdeviceName=localMac -Dos=MacOS -Dbrowser=chrome "-Dcucumber.options=--tags @sunsaver"
-```
-7. Click **OK** or (If **Run** appears instead of **OK** click **Run** and leave below step).
-8. Click **Run** icon to Run Test
-
 
 ## Links to Download Pre-requisite
 
